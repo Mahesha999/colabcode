@@ -24,10 +24,10 @@ class ColabCode:
         self,
         port=10000,
         password=None,
-        authtoken=None,
         mount_drive=False,
         code=True,
         lab=False,
+        authtoken
     ):
         self.port = port
         self.password = password
